@@ -1,0 +1,230 @@
+/* reset css */
+*{box-sizing: border-box;}
+a{text-decoration: none;}
+button{cursor: pointer;}
+img{vertical-align: bottom;}
+/* reset css end */
+
+
+.container{
+    width: 100%;
+    margin: auto;
+    padding: 0px 0px;
+    box-sizing: border-box;
+     height: auto;
+}
+
+.row{
+    box-sizing: border-box;
+    margin: 0px 0px;
+    width: 100%;
+
+}
+
+.section-margin1{
+    margin-top: 50px;
+}
+
+.section-margin2{
+    margin-bottom: 50px;
+}
+
+.clearfix{clear: both; display: block;}
+
+.col-1{width: 8.33%; float: left; padding: 0px 15px; min-height: 1px;}
+.col-2{width: 16.66%; float: left; padding: 0px 15px; min-height: 1px;}
+.col-3{width: 25%; float: left; padding: 0px 15px; min-height: 1px;}
+.col-4{width: 33.33%; float: left; padding: 0px 15px; min-height: 1px;}
+.col-5{width: 41.66%; float: left; padding: 0px 15px; min-height: 1px;}
+.col-6{width: 50%; float: left; padding: 0px 15px; min-height: 1px;}
+.col-7{width: 58.33%; float: left; padding: 0px 15px; min-height: 1px;}
+.col-8{width: 66.66%; float: left; padding: 0px 15px; min-height: 1px;}
+.col-9{width: 75%; float: left; padding: 0px 15px; min-height: 1px;}
+.col-10{width: 83.33%; float: left; padding: 0px 15px; min-height: 1px;}
+.col-11{width: 91.66%; float: left; padding: 0px 15px; min-height: 1px;}
+.col-12{width: 100%; float: left; padding: 0px 15px; min-height: 1px;}
+
+@font-face {
+    font-family: myfont;
+    src: url(Nunito-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: myregular;
+    src: url(Nunito-Regular.ttf);
+}
+
+@font-face {
+    font-family: mylight;
+    src: url(Nunito-Light.ttf);
+}
+
+@font-face {
+    font-family: helvetica;
+    src: url(Helvetica.ttf);
+}
+
+
+@font-face {
+    font-family: manrope;
+    src: url(manrope.ttf);
+}
+@font-face {
+    font-family: open;
+    src: url(open.ttf);
+}
+
+
+
+.taste{
+    color:#FF4F4F;
+    font-family: helvetica;
+    }
+
+.taste-text{
+    font-family: helvetica;
+    color:#8F8F8F;
+
+}
+
+.brand{
+    width: 100% !important;
+}
+
+.foodyHeading{
+    font-family: helvetica;
+    
+}
+
+.foodyPad{
+    padding: 0px;
+}
+
+.foodyImage{
+    width:100%;
+    
+}
+
+.foodyFlex{
+    display: flex;
+    line-height: 0px;
+}
+
+.foodyFlex i{
+    align-self: center;
+    color:#ffffff;
+    padding-right: 10px;
+}
+
+.foodyBackground{
+    background-image: url(background-1.png);
+    height: 547px;
+
+}
+
+.foodyBackground p{
+    color:#ffffff;
+    font-family: helvetica;
+    font-size: 14px;
+}
+
+.foodyItem{
+    align-self: center;
+}
+
+.explore-foody{
+    display:flex;
+    width:140px;
+    background-color:#f1ebeb;
+    border-radius:23.5px;
+    text-align: center;
+    height:45px;
+    align-items: center;
+    justify-content: center;
+    color: #ff6261;
+    font-size: 16px;
+    font-family: mylight;
+    box-shadow: 2px 2px 14px 1px #ece1e1;
+    margin: 20px 0px;
+    }
+
+    .bussiness-heading{
+            color:#FF4F4F;
+            text-align: center;
+            font-family: helvetica;
+            font-size: 24px;
+    }
+    
+
+    .bussiness-head{
+        font-family: manrope;
+    
+}
+.bussiness-text{
+    font-family: open;
+    color: #9497A1;
+    font-size: 14px;
+}
+
+.bussiness-Flex{
+    display: flex;
+}
+
+.bussiness-Item{
+    align-self: center;
+}
+
+.bussiness-image{
+    margin-top:-32px;
+    margin-left: -105px;
+
+    
+}
+
+.bussiness-background{
+    background-image:url(bussiness-rect.png);
+    background-repeat: no-repeat;
+    
+}
+
+.common-explore{
+display: flex;
+width: 140px;
+background-color: #ff6768;
+border-radius: 23.5px;
+text-align: center;
+height: 45px;
+align-items: center;
+justify-content: center;
+color: #ffffff;
+font-size: 16px;
+font-family: mylight;
+box-shadow: 2px 2px 14px 1px #bfb9b9;
+margin: 28px 0px;
+}
+
+.solution-background{
+
+    background-image:url(solution-rect.png);
+    background-repeat: no-repeat;
+    height: 615px;
+
+}
+
+.solution-image{
+    margin-top:-179px;
+    margin-left:-14px;
+    }
+
+    .solution-Item{
+        align-self: center;
+    }
+
+
+    .sectionBackground{
+        background-image: url(masala.png);
+    }
+    
+
+    
+

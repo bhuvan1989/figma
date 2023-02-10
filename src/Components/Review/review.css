@@ -1,0 +1,63 @@
+.review-info-para {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.small-box1 {
+  background: linear-gradient(107.77deg, #ff4f4f 15.95%, #fe7171 100%);
+  border-radius: 20px;
+  position: absolute;
+  top: 8%;
+  left: 51%;
+}
+.spices5 {
+  position: absolute;
+  width: 900px;
+  height: 470px;
+  top: 40vh;
+  right: 1%;
+  right: -1%;
+
+  background-image: url("../../../src/assets/Spices5.png");
+  opacity: 50%;
+  background-position: center;
+  background-size: contain;
+}
+.spices6 {
+  position: absolute;
+  right: 7%;
+  top: 10%;
+  width: 672px;
+  height: 453px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../../../src/assets/Spices6.jpeg");
+  border: 1px solid #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  z-index: 6;
+}
+.order-info {
+  font-family: "Original Surfer";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+.order-desc {
+  font-size: 16px;
+  line-height: 24px;
+  color: #828282;
+  font-weight: 200;
+}
+.transbg {
+  top: 17%;
+  opacity: 0.24;
+  transform: rotate(-22.54deg);
+  width: 955.7px;
+  height: 785.82px;
+  left: -20%;
+}
