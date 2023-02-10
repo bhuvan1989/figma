@@ -4,6 +4,8 @@ import SectionMain from "./SectionMain";
 import FoodyProduct from "./FoodyProduct";
 import BussinessSection from "./BussinessSection";
 import SolutionSection from "./SolutionSection";
+import MasalaGrid from "./MasalaGrid";
+import ExperienceSection from "./ExperienceSection";
 function App() {
   return (
     <>
@@ -12,6 +14,8 @@ function App() {
       <FoodyProduct />
       <BussinessSection />
       <SolutionSection />
+      <ExperienceSection />
+      <MasalaGrid />
     </>
   );
 }
