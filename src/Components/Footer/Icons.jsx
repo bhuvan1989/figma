@@ -3,7 +3,7 @@ import { Facebook, Instagram, Twitter } from '@mui/icons-material';
 
 const Icons = () => {
     return (
-        <div className="icons flex w-40 text-center justify-around mt-2">
+        <div className="icons flex w-40 text-center justify-around items-start mt-2 ml-6">
             <Instagram style={{color:"white"}}/>
             <Facebook style={{ color: 'white' }} />
             <Twitter style={{ color: 'white' }} />

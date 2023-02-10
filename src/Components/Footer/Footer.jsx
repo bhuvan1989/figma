@@ -11,7 +11,7 @@ import FooterEnd from './FooterEnd';
 const Footer = () => {
   return (
     <>
-      <div className="main-container mt-20">
+      <div className="main-container w-[100%] mt-20">
         <div className='footer flex bg-center bg-cover'>
           <div class="basis-9/12 subscibe h-48 flex justify-center items-center">
             <div className='subscribe-text mr-8'>
@@ -25,8 +25,8 @@ const Footer = () => {
               <input type="text" className='input px-3' placeholder='Join' />
             </div>
           </div>
-          <div className="basis-3/12 h-48 bg-[#1E1E1E] flex flex-col justify-center items-center">
-            <p className='text-white text-xl'>Social Media</p>
+          <div className="basis-3/12 h-48 bg-[#1E1E1E] flex flex-col justify-center items-start">
+            <p className='text-white text-xl ml-10'>Social Media</p>
             <Icons />
           </div>
         </div>

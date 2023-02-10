@@ -9,7 +9,7 @@ const HandPicked = () => {
         <img src={mixSpices} alt="" width={"856px"} height={"738px"} />
       </div>
       <div className="handpicked w-[100%] h-[558px] absolute top-[40%] bg-center bg-cover">
-        <div className="w-[60%] mt-20 ml-20">
+        <div className="w-[60%] mt-20 ml-10">
           <p className="hand-para">
             Spices that are grown organically and handpicked for uncompromised
             taste.
