@@ -10,7 +10,7 @@ const SideBar = () => {
                 <div className="lg:basis-9/12 lg:h-[21.5rem] bg-red-50 imaged">
                 </div>
 
-                <div className="lg:basis-3/12 lg:h-[21.5rem] bg-black flex flex-col justify-start">
+                <div className="lg:basis-3/12 lg:h-[21.5rem] bg-black flex flex-col justify-start side-bar">
                     <div className="w-40 my-auto ml-10">
                         <div className='mb-5'>
                             <p className='text-sm text-white'>
@@ -28,7 +28,7 @@ const SideBar = () => {
                                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
                             </p>
                         </div>
-                        <div className='subscribe-sidebar'>
+                        <div className=''>
                             <p className='text-sm text-white'>
                                 Subscribe
                             </p>

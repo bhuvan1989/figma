@@ -100,4 +100,7 @@
   .copyright-text{
     margin: 10px auto; 
   }
+  .side-bar{
+    display: none;
+  }
 }
