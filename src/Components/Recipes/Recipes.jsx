@@ -12,7 +12,7 @@ const Recipes = () => {
     
 
   return (
-    <div className="recipes w-[95%] h-[100vh] mx-auto mt-5">
+    <div className="recipes lg:w-[95%] mx-auto mt-5">
       <div className="flex justify-center">
         <h1 className="heading">Check out the yummiest recipes </h1>
       </div>

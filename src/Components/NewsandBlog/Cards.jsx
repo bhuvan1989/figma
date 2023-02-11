@@ -8,7 +8,7 @@ const Cards = ({ item }) => {
         backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${item.productImg})`,
       }} />
         <h1 className="text-center product-name mt-4">{item.productName}</h1>
-        <p className="text-center product-desc">
+        <p className="product-desc">
           {item.productDesc}
         </p>
       </div>

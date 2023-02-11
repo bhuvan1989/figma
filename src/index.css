@@ -8,3 +8,8 @@
 body{
     overflow-x: clip;
 }
+@media screen and (max-width: 600px){
+    body{
+        overflow-x: clip;
+    }
+}

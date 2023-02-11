@@ -39,3 +39,34 @@ line-height: 32px;
 
 color: #8A8585;
 }
+
+@media screen and (max-width: 600px){
+  .newsandblog{
+    width: 100%;
+  }
+  .spoon{
+    display: none;
+  }
+  .cards-container{
+    flex-direction: column;
+  }
+  .blog-para{
+    width: 90%;
+    text-align: center;
+    font-size: 30px;
+  }
+  .cards{
+    width: 100vw;
+    margin: 2px auto;
+    justify-content: center;
+  }
+  .product-name{
+    font-size: 30px;
+  }
+  .product-desc{
+    font-size: 25px;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+  }
+}

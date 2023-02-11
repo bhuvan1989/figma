@@ -7,12 +7,12 @@ import EastIcon from '@mui/icons-material/East';
 
 const ReviewInfo = () => {
   return (
-    <div className="review-info w-[45%] ml-10 mt-24">
+    <div className="review-info lg:ml-10">
       <h1 className="heading">Customer Review</h1>
-      <div className="flex ml-2 mt-6">
-        <img src={Quotes} alt="" className="mr-2 h-[60px] w-[60px]" />
+      <div className="flex lg:ml-2 mt-6">
+        <img src={Quotes} alt="" className="lg:mr-2 h-[60px] w-[60px] quotes" />
       </div>
-      <p className="review-info-para w-[80%] mt-8">
+      <p className="review-info-para mt-8">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam
         pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit
         augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis

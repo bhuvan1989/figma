@@ -6,7 +6,7 @@ import ReviewInfo from "./ReviewInfo";
 
 const Review = () => {
   return (
-    <div className="review-container relative justify-between flex w-[95%] h-[100vh] mx-auto mt-10 overflow-x-hidden overflow-y-hidden">
+    <div className="review-container relative justify-between flex mx-auto mt-10">
       <ReviewInfo />
       <ReviewImg/>
     </div>

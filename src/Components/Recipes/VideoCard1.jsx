@@ -11,7 +11,7 @@ const VideoCard1 = ({ item }) => {
   console.log(item);
   return (
     <div
-      className="video-card-1 w-[409px] h-[599px] bg-center bg-cover"
+      className="video-card-1 bg-center bg-cover"
       style={{
         backgroundImage: `linear-gradient( 0deg,
         rgba(0, 0, 0, 0.5),
@@ -22,7 +22,7 @@ const VideoCard1 = ({ item }) => {
         <div className="chef-info flex justify-around items-center mt-4">
           <div className="flex justify-around items-center w-[50%]">
             <div className="chef-wrapper">
-              <div className="w-[75px] h-[75px] flex justify-center items-center rounded-full chef-container ">
+              <div className="lg:w-[75px] lg:h-[75px] flex justify-center items-center rounded-full chef-container ">
                 <img src={item.chefImg} alt="" className="chef-img" />
               </div>
             </div>

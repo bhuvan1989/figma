@@ -16,17 +16,17 @@ const newsCards = NewsData.map((item) => {
 });
 const NewsandBlog = () => {
   return (
-    <div className="newsandblog w-[100%] h-[180vh] mx-auto relative mt-60">
+    <div className="newsandblog mx-auto relative mt-60">
       <img
         src={Spoon}
         alt=""
-        className="absolute top-[-18%] left-[-14%] w-[530px]"
+        className="spoon absolute lg:top-[-18%] lg:left-[-14%] lg:w-[530px]"
       />
       <div className="-z-30 absolute right-0 top-[-30%] flex justify-end opacity-[20%]">
         <img src={transbg} alt="" />
       </div>
       <NewsInfo />
-      <div className="flex w-[95%] justify-around flex-wrap mt-20 mx-auto">{newsCards}</div>
+      <div className="flex cards w-[95%] justify-around flex-wrap mt-20 mx-auto">{newsCards}</div>
 
       {/* <Cards2 /> */}
     </div>

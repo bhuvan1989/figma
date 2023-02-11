@@ -5,18 +5,18 @@ import SpicesInfo from './SpicesInfo';
 
 const Spices = () => {
     return (
-        <div className='spices-container w-[100%] h-[110vh] m-auto relative flex overflow-hidden ml-5'>
-            <div className='basis-7/12 ml-5'>
+        <div className='spices-container lg:w-[100%] m-auto relative flex lg:ml-5 mt-20'>
+            <div className='basis-7/12 lg:ml-5 box-container'>
                 <div className="box">
-                    <div className='w-[282px] h-[101px] small-box ml-5 absolute z-10'>
+                    <div className='lg:w-[282px] lg:h-[101px] small-box ml-5 absolute z-10'>
                     </div>
-                    <div className="box1 z-20 w-[424px] h-[523px] absolute bg-center bg-cover  border-white border shadow-lg" >
+                    <div className="box1 z-20 lg:w-[424px] lg:h-[523px] absolute bg-center bg-cover  border-white border shadow-lg" >
                     </div>
                 </div>
                 <div className="box">
-                    <div className="box2 z-30 w-[424px] h-[523px] absolute bg-center bg-cover border-white border shadow-md">
+                    <div className="box2 z-30 lg:w-[424px] lg:h-[523px] absolute bg-center bg-cover border-white border shadow-md">
                     </div>
-                    <div className='w-[282px] h-[101px] small-box2 ml-5 absolute'>
+                    <div className='lg:w-[282px] lg:h-[101px] small-box2 ml-5 absolute'>
                     </div>
                 </div>
             </div>

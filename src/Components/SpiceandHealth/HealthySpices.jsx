@@ -2,9 +2,9 @@ import React from "react";
 
 const HealthySpices = () => {
   return (
-    <div className="p-12">
+    <div className="lg:p-12">
       <div className=" flex justify-between mt-10">
-        <div className="w-[125px] h-[125px] border-4 border-dashed border-red-500 flex justify-center items-center rounded-full">
+        <div className="lg:w-[125px] lg:h-[125px] black-pepper-container border-4 border-dashed border-red-500 flex justify-center items-center rounded-full">
           <div className="black-pepper p-10"></div>
         </div>
         <div className="w-96">
@@ -18,7 +18,7 @@ const HealthySpices = () => {
         </div>
       </div>
       <div className="flex justify-between mt-20">
-        <div className="w-[125px] h-[125px] border-4 border-dashed border-red-500 flex justify-center items-center rounded-full">
+        <div className="lg:w-[125px] lg:h-[125px] cardamom-container border-4 border-dashed border-red-500 flex justify-center items-center rounded-full">
           <div className="cardamom p-10"></div>
         </div>
         <div className="w-96">

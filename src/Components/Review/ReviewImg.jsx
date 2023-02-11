@@ -3,10 +3,10 @@ import React from 'react'
 const ReviewImg = () => {
   return (
     <div className="review-img w-[47%] flex flex-col justify-center mt-5">
-        <div className="w-[535px] h-[101px] small-box1"></div>
+        <div className="small-box1"></div>
         <div className="spices5"></div>
         <div className="spices6"></div>
-        <div className="order absolute w-[434px] h-[213px] z-50 bg-gray-50 rounded-3xl border border-red-600 left-[42%] mt-20">
+        <div className="order absolute z-50 bg-gray-50 rounded-3xl border border-red-600 mt-20">
           <div className="order-info w-[85%] mx-auto mt-5">
             <div className="flex justify-between">
               <p>Order Now</p>
