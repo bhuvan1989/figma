@@ -14,7 +14,7 @@ import Recipes from "./Components/Recipes/Recipes";
 import MasalaGrid from "./MasalaGrid";
 import ExperienceSection from "./ExperienceSection";
 
-
+//dspifahwesnfiulwajesmd 225
 function App() {
   return (
     <>
@@ -24,7 +24,7 @@ function App() {
       <BussinessSection />
       <SolutionSection />
       <ExperienceSection />
-      <MasalaGrid /> 
+      <MasalaGrid />
       <Recipes />
       <HandPicked />
       <NewsandBlog />
