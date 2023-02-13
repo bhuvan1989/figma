@@ -3,8 +3,7 @@ import { RecipeData } from "../RecipeData";
 import "./recipes.css";
 
 import VideoCard1 from "./VideoCard1";
-import VideoCard2 from "./VideoCard2";
-import VideoCard3 from "./VideoCard3";
+
 
 
 const Recipes = () => {
