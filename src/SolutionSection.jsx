@@ -11,8 +11,10 @@ function SolutionSection() {
           </div>
           <div class="col-1"></div>
 
-          <div class="col-4 solution-Item">
-            <h1 class="bussiness-head">Radically new data solutions</h1>
+        <div className="basis-4/12 self-center spices-pad">
+          <h1 class="bussiness-head-mobile my-3">
+            Get the Desired Flavour and Aroma with PlanetsEra Spices
+          </h1>
 
             <p class="bussiness-text">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem

@@ -61,7 +61,7 @@ box-shadow: 2px 2px 14px 1px #ff5f5e;
 }
 
 .slider-Image{
-    background-image: url(background.png);
+    background-image: url("../assets/images/background.png");
     background-repeat: no-repeat;
     background-size: cover;
     
