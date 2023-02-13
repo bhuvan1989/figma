@@ -174,14 +174,17 @@ height: 540px;
            }   
            
            
-           #mobilenavigation{
+           #mobilenavigation {
             width: 100%;
             padding-left: 15px;
             background-color: #FF4F4F;
-           }
-
+            padding: 22px;
+            border-bottom: 2px solid #ffffff;
+            box-shadow: 1px 2px 3px 3px #ff4f4f;
+            box-shadow: 3px 0px 1px 0px #ff4f4f;
+        }
            #mobilenavigation li{
-            margin-bottom: 10px;
+            margin-bottom:25px;
            }
 
            #mobilenavigation li a{
@@ -200,8 +203,49 @@ height: 540px;
             color: #FF4F4F;
             text-shadow: 1px 1px 2px #ff4f4f;
             font-weight: 400;
-            font-size: 52px;
+            font-size: 52px !important;
         }
+
+        .slider-Image{
+            background-image: url("../assets/images/background.png");
+            background-repeat: no-repeat;
+            background-size:cover !important;
+            
+        }
+
+        .text-alignment{
+            display: flex;
+            flex-direction: column;
+            height: 358px !important;
+            justify-content: center;
+            width: 100%;
+            margin-top: 30px;
+            
+        }
+
+        .header-display{
+            display: none !important;
+        }
+
+        .basis-8\/12 {
+            flex-basis: 100% !important
+        }
+
+        .image-top{
+            margin-top: 15px !important;
+        }
+
+        .icon-design{
+            font-size: 21px;
+            padding: 11px;
+            background-color: #d3d3d3ba;
+            color: #ff5151;
+            border-radius: 10px;
+        }
+        
+        .nav-shadow{
+            box-shadow:0px -1px 3px 3px #dfdada;
+            }
 
 
 }
@@ -394,6 +438,39 @@ height: 540px;
                 font-weight: 400;
                 font-size: 70px;
             }
+
+            .slider-Image{
+                background-image: url("../assets/images/background.png");
+                background-repeat: no-repeat;
+                background-size: contain;
+                
+            }
+
+            .text-alignment{
+                display: flex;
+                flex-direction: column;
+                height: 532px !important;
+                justify-content: center;
+                width: 100%;
+                
+            }
+
+
+            .header-display{
+                display: block;
+            }
+
+            .basis-8\/12 {
+                flex-basis: 66.666667%;
+            }
+
+            .image-top{
+                margin-top:0px;
+            }
+        
+           
+            
+            
           
 
 }
