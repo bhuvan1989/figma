@@ -46,12 +46,12 @@ img{vertical-align: bottom;}
 
 @font-face {
     font-family: myfont;
-    src: url(originalsurfer.ttf);
+    src: url(Nunito-ExtraBold.ttf);
 }
 
 @font-face {
     font-family: myregular;
-    src: url(josefont.ttf);
+    src: url(Nunito-Regular.ttf);
 }
 
 @font-face {
@@ -74,27 +74,15 @@ img{vertical-align: bottom;}
     src: url(open.ttf);
 }
 
-@font-face {
-    font-family: oriyafont;
-    src: url(oriyafont.ttc);
-}
-
-
-.cusines-image{
-    position: absolute;
-    top: -40%;
-    height: 600px;
-}
 
 
 .taste{
     color:#FF4F4F;
-    font-family: myfont;
-    font-size: 51px;
+    font-family: helvetica;
     }
 
 .taste-text{
-    font-family: myregular;
+    font-family: helvetica;
     color:#8F8F8F;
 
 }
@@ -104,7 +92,7 @@ img{vertical-align: bottom;}
 }
 
 .foodyHeading{
-    font-family: myfont;
+    font-family: helvetica;
     
 }
 
@@ -129,14 +117,14 @@ img{vertical-align: bottom;}
 }
 
 .foodyBackground{
-    background-image: url(./assets/images/background-1.png);
-    height:608px;
+    background-image: url(background-1.png);
+    height: 547px;
 
 }
 
 .foodyBackground p{
     color:#ffffff;
-    font-family: myregular;
+    font-family: helvetica;
     font-size: 14px;
 }
 
@@ -145,28 +133,31 @@ img{vertical-align: bottom;}
 }
 
 .explore-foody{
-    height: 56px;
-    width: 156px;
-    border-radius: 30px;
-    font-size: 15px;
-    color: #FF4F4F;
-    font-family: myregular;
-    box-shadow: 0px 1px 3px 0px #ffffff;
-    border: 1px solid white;
+    display:flex;
+    width:140px;
+    background-color:#f1ebeb;
+    border-radius:23.5px;
+    text-align: center;
+    height:45px;
+    align-items: center;
+    justify-content: center;
+    color: #ff6261;
+    font-size: 16px;
+    font-family: mylight;
+    box-shadow: 2px 2px 14px 1px #ece1e1;
+    margin: 20px 0px;
     }
-    
 
     .bussiness-heading{
-            font-family: myfont;
-        
+            color:#FF4F4F;
+            text-align: center;
+            font-family: helvetica;
+            font-size: 24px;
     }
     
 
     .bussiness-head{
-        font-family: myfont;
-        color:#FF4F4F;
-        text-shadow: 0px 4px 3px rgba(255, 13, 13, 0.25);
-        font-size: 46px;
+        font-family: manrope;
     
 }
 .bussiness-text{
@@ -184,17 +175,15 @@ img{vertical-align: bottom;}
 }
 
 .bussiness-image{
-    margin-top:-17px;
-    margin-left: -80px;
+    margin-top:-32px;
+    margin-left: -105px;
 
     
 }
 
 .bussiness-background{
-    background-image:url(./assets/images/bussiness-rect.png);
+    background-image:url(bussiness-rect.png);
     background-repeat: no-repeat;
-    height: 566px;
-    background-size: cover;
     
 }
 
@@ -216,15 +205,15 @@ margin: 28px 0px;
 
 .solution-background{
 
-    background-image:url(./assets/images/solution-rect.png);
+    background-image:url(solution-rect.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    height: 615px;
 
 }
 
 .solution-image{
-    margin-top:-120px;
-    margin-left:3px;
+    margin-top:-179px;
+    margin-left:-14px;
     }
 
     .solution-Item{
@@ -233,153 +222,9 @@ margin: 28px 0px;
 
 
     .sectionBackground{
-        background-image: url(./assets/images/masala.png);
+        background-image: url(masala.png);
     }
-
-    .gra-box{
-        bottom: 0;
-       background-image: linear-gradient(#2f2e32d9 0%,#050505 100%);
-       border-radius: 16px;
-       width: 90%;
-       font-family: myfont;
-       box-shadow: 0px 0px 9px 0px #1a1a1b;
-   }
-
-   .gra-img{
-    margin-top: -21px;
-   }
-   .gra-box-1{
-    bottom: 0;
-   background-image: linear-gradient(#3C0C6A 0%,#A462E3 100%);
-   border-radius: 16px;
-   width: 90%;
-   font-family: myfont;
-   box-shadow: 0px 0px 9px 0px #7b40b2;
-}
-
-.gra-box-2{
-    bottom: 0;
-   background-image: linear-gradient(#370000 0%, #961010 100%);
-   border-radius: 16px;
-   width: 90%;
-   font-family: myfont;
-   box-shadow: 0px 0px 9px 0px #8c0e0f;
-}
-
-.gra-box-4{
-    bottom: 0;
-   background-image: linear-gradient(#734809 0%, #D78306 100%);
-   border-radius: 16px;
-   width: 90%;
-   font-family: myfont;
-   box-shadow: 0px 0px 9px 0px #c47806;
-}
-
-.gra-box-8{
-    bottom: 0;
-   background-image: linear-gradient(#937920 0%, #FDDE90 100%);
-   border-radius: 16px;
-   width: 90%;
-   font-family: myfont;
-   box-shadow: 0px 0px 9px 0px #e0c272;
-}
-
-
-.gra-box-6{
-    bottom: 0;
-   background-image: linear-gradient(#AFA801 0%, #D7CF06 100%);
-   border-radius: 16px;
-   width: 90%;
-   font-family: myfont;
-   box-shadow: 0px 0px 9px 0px #d3cc04;
-}
-
-.experience-heading{
-    color:#FF4F4F;
-    font-family: oriyafont;
-    text-shadow: 0px 4px 3px rgba(255, 13, 13, 0.25);
-    font-size: 48px;
-}
-.experience-bg{
-background-image: linear-gradient(#FF4F4F 0%, #FE7171 100%);
-border-radius: 15px;
-width: 374px;
-height: 94px;
-box-shadow: 0px 4px 3px rgb(255 13 13 / 25%);
-border: 1px solid white;
-
-}
-
-.experience span{
-    font-family: myregular;
-    font-size: 48px;
-    font-weight: 700;
-    color: white;
-}
-
-.experience-point-1{
-    font-size: 14px;
-    font-weight: 400;
-    font-family: myregular;
-    color:white;
-}
-
-
-
-.experience-point-2 {
-    font-size: 24px;
-    font-weight:700;
-    font-family: myregular;
-    color:white;
-}
-
-.experienceFood{
-    position: absolute;
-    right: 0%;
-    /* bottom: 0%; */
-    height: 645px;
-    top: 50%;
-}
-
-
-.masala-button{ 
-    width: 165px;
-    height: 56px;
-    border-radius: 30px;
-    background-image: linear-gradient(#FF4F4F 0%, #FE7171 100%);
-    display: block;
-    color: #ffffff;
-    font-family: myregular;
-    box-shadow: 0px 0px 9px 0px #FE7171;
     
-}
-
-
-.masala-background{
-    position: absolute;
-    top: 0%;
-    z-index: 8;
-    opacity: 0.1;
-    height: 875px;
-    width: 100%;
-
-}
-
-.spciesImage{
-    position: absolute;
-    right: 0%;
-    height: 725px;
-    /* width: 686px; */
-    opacity: 0.1;
-}
-
-@media screen and (min-width:1280px) {
-.container{
-    max-width: 100% !important;
-}
-}
-    
-   
 
     
 

@@ -1,27 +1,30 @@
 import "./App.css";
-import spice from "../src/assets/images/spices.png";
-import solutionBg from "../src/assets/images/solutionbg.png";
 function SolutionSection() {
   return (
-    <div className="container mt-40">
-      <div className="basis-12/12 bussiness-Flex">
-        <div className="basis-6/12 solution-background">
-          <img src={spice} class="solution-image w-max-full h-auto" />
-        </div>
-        <div className="basis-1/12"></div>
+    <div class="container hidden">
+      <div class="row">
+        <div class="col-12 section-margin1 section-margin2"></div>
 
-        <div className="basis-4/12 self-center pr-5	">
-          <h1 class="bussiness-head my-3">
-            Get the Desired Flavour and Aroma with PlanetsEra Spices
-          </h1>
+        <div class="col-12 bussiness-Flex">
+          <div class="col-6 solution-background">
+            <img src="spices.png" class="solution-image" />
+          </div>
+          <div class="col-1"></div>
 
-          <p className="taste-text my-5">
-            Using the most advanced tech of Air Classifying Mills, spices are
-            produced at subzero temperature which helps them retain the
-            uniqueness of their flavour.
-          </p>
+          <div class="col-4 solution-Item">
+            <h1 class="bussiness-head">Radically new data solutions</h1>
+
+            <p class="bussiness-text">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo.
+            </p>
+            <a href="#" class="common-explore">
+              Explore More
+            </a>
+          </div>
         </div>
-        <img src={solutionBg} className="spciesImage" />
       </div>
     </div>
   );
