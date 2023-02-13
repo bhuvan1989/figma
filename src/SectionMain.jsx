@@ -1,4 +1,5 @@
 import "./App.css";
+import mOne from "../src/assets/images/m1.png"
 function SectionMain() {
   return (
     <div className="container mt-401 bg-no-repeat relative">
