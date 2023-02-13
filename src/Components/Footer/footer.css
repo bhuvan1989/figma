@@ -20,10 +20,24 @@
 .subscibe {
   background: linear-gradient(107.77deg, #ff4f4f 15.95%, #fe7171 100%);
 }
+.join{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 40px;
+}
+.footer-btn{
+    background-color: white;
+    color: black;
+    height: 59px;
+    /* border-radius: 0px 40px 40px 0px; */
+    width: 150px;
+    border-radius: 40px;
+}
 .input {
-  width: 510px;
+  width: 400px;
   height: 59px;
-  border: 1px solid #d9d9d9;
+  /* border: 1px solid #d9d9d9; */
   border-radius: 20px;
   background: transparent;
   margin-left: 20px;
@@ -40,9 +54,11 @@
   .footer {
     flex-direction: column;
   }
+
   .subscibe,
   .social {
     height: 100px;
+    flex-direction: column;
   }
   .social {
     width: 100%;
@@ -50,12 +66,24 @@
   }
   .social-text {
     margin: 0px auto;
+
+  }
+  .subscribe-text{
+    display: none;
   }
   .icons {
     margin: 0px auto;
   }
+  .join{
+    justify-content: space-between;
+    width: 300px;
+  }
+  .footer-btn{
+    width: 100px;
+    height: 40px;
+  }
   .input {
-    width: 200px;
+    width: 150px;
     height: 40px;
   }
   .sidebar-container {
@@ -101,6 +129,14 @@
     margin: 10px auto; 
   }
   .side-bar{
+    display: none;
+  }
+  .siderbar-container{
+    width: 80%;
+    margin-top: 20px;
+    margin: 10px auto;
+  }
+  .subscibe-sidebar{
     display: none;
   }
 }

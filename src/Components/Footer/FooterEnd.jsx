@@ -8,7 +8,7 @@ const FooterEnd = () => {
                 <div className='logo my-auto'>
                     <img src={footerlogo} alt="" className='lg:w-40' />
                 </div>
-                <div className="menu my-auto">
+                <div className="menu lg:my-auto">
                     <ul className='flex menu-links text-white lg:justify-between lg:items-center my-auto text-xs'>
                         <li className='px-8'>Best Fruits</li>
                         <li className='px-8'>Social Media</li>

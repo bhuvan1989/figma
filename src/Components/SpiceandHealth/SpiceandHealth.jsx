@@ -8,23 +8,14 @@ const SpiceandHealth = () => {
   return (
     <div className="spicesandHealth relative">
       <h1 className="heading text-center space-x-1">Spices and Health</h1>
-
       <div className="spicesandHealth-container flex lg:justify-between">
         <div className="healthy-spice-container mt-5">
-          <HealthySpices />
+          <HealthySpices />  
         </div>
         <div>
-          <div className="lg:items-left basis-1/12 scroll-container">
-            <div className="bar w-[23px] h-[466px] relative top-20 ml-10">
-              <div className="scroll-bar"></div>
-            </div>
-          </div>
         </div>
         <div className="spice-image-container lg:p-12 lg:w-[47%]">
-          <img
-            src={Spice4}
-            alt="" className="spice-image"
-          />
+          <img src={Spice4} alt="" className="spice-image" />
         </div>
       </div>
       <div className="overflow-x-hidden">

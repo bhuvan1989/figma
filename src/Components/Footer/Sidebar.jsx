@@ -11,7 +11,7 @@ const SideBar = () => {
                 </div>
 
                 <div className="lg:basis-3/12 lg:h-[21.5rem] bg-black flex flex-col justify-start side-bar">
-                    <div className="w-40 my-auto ml-10">
+                    <div className="lg:w-40 lg:my-auto ml-10 siderbar-container">
                         <div className='mb-5'>
                             <p className='text-sm text-white'>
                                 More Opinions
@@ -28,7 +28,7 @@ const SideBar = () => {
                                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
                             </p>
                         </div>
-                        <div className=''>
+                        <div className='subscibe-sidebar'>
                             <p className='text-sm text-white'>
                                 Subscribe
                             </p>

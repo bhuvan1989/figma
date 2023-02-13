@@ -44,7 +44,27 @@
   background-clip: text;
   text-fill-color: transparent;
 }
+.scroll::-webkit-scrollbar {
+  width: 20px;
+  /* height: 99px; */
+  height: 0px;
+}
 
+.scroll::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 20px;
+}
+.scroll::-webkit-scrollbar-thumb {
+  width: 21px;
+  
+  background: linear-gradient(107.77deg, #ff4f4f 15.95%, #fe7171 100%);
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  } */
 .cardamom-para {
   font-family: "Josefin Sans";
   font-style: normal;
@@ -60,7 +80,7 @@
 }
 
 .scroll-bar {
-  width: 23px;
+  width: 21px;
   height: 99px;
   background: linear-gradient(107.77deg, #ff4f4f 15.95%, #fe7171 100%);
   border-radius: 20px;
@@ -78,6 +98,13 @@
   .healthy-spice-container {
     width: 95%;
     margin: 0px auto;
+  }
+  .scroll{
+    height: 60vh;
+  }
+  .scroll::-webkit-scrollbar{
+    width: 6px;
+    border-radius: 20px;
   }
   .black-pepper {
     width: 40px;
@@ -105,12 +132,11 @@
   .cardamom-para {
     font-size: 15px;
   }
-  .scroll-bar {
-    display: none;
-  }
+
   .scroll-container {
     display: none;
   }
+ 
   .spice-image-container {
     width: 100%;
     height: 300px;
