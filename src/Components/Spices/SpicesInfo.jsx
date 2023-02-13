@@ -8,20 +8,20 @@ const SpicesInfo = () => {
                 PlanetsEra Spices are enriched with the most authentic taste and enchanting aroma. Each step in the manufacturing process is responsibly supervised from picking out from the farms to delivering it to the stores, so that there is no compromise in the health of our consumers.
             </p>
             <div className='flex btn-container mt-10'>
-                <div className='btn hand'>
+                <button className='btn hand'>
                     Handpicked from the best <br /> farms
-                </div>
-                <div className='btn ml-5'>
+                </button>
+                <button className='btn ml-5 hand'>
                     Grinded at lower temperatures
-                </div>
+                </button>
             </div>
             <div className='flex btn-container mt-4'>
-                <div className='btn'>
+                <button className='btn hand'>
                     Hygienic manufacturing
-                </div>
-                <div className='btn ml-5'>
+                </button>
+                <button className='btn ml-5 hand'>
                     Quality preservation
-                </div>
+                </button>
             </div>
 
         </div>
