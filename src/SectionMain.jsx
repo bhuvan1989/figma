@@ -4,15 +4,15 @@ import cusinesImage from "../src/assets/images/cusinesImg.png";
 
 function SectionMain() {
   return (
-    <div className="container mt-40 bg-no-repeat relative">
-      <div className="basis-12/12 flex taste">
-        <div className="basis-1/12"></div>
+    <div className="container mt-401 bg-no-repeat relative">
+      <div className="basis-12/12 flex taste-cooking">
+        <div className="basis-1/12 cooking-dis"></div>
         <div className="basis-10/12">
           <h2 className="text-center my-5">
             Revolutionized Cooking - But Authentic Rajasthani Taste!!
           </h2>
         </div>
-        <div className="basis-1/12"></div>
+        <div className="basis-1/12 cooking-dis"></div>
       </div>
       <div className="basis-12/12 flex px-5">
         <div className="basis-1/12"></div>
@@ -30,11 +30,11 @@ function SectionMain() {
       </div>
 
       <div className="basis-12/12 flex my-3 px-5">
-        <div className="basis-1/12"></div>
+        <div className="basis-1/12 cooking-dis"></div>
         <div className="basis-10/12">
           <img src={mOne} class="max-w-full h-auto" />
         </div>
-        <div className="basis-1/12"></div>
+        <div className="basis-1/12 cooking-dis"></div>
       </div>
       <img src={cusinesImage} className="cusines-image" />
     </div>

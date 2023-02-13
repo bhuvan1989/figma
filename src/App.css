@@ -5,6 +5,9 @@ button{cursor: pointer;}
 img{vertical-align: bottom;}
 /* reset css end */
 
+body{
+    overflow-x: clip;
+}
 
 .container{
     width: 100%;
@@ -242,19 +245,23 @@ margin: 28px 0px;
        border-radius: 16px;
        width: 90%;
        font-family: myfont;
+       z-index: -4;
        box-shadow: 0px 0px 9px 0px #1a1a1b;
+       height: 202px !IMPORTANT;
    }
 
    .gra-img{
-    margin-top: -21px;
+    margin-bottom: 60px;
    }
    .gra-box-1{
     bottom: 0;
-   background-image: linear-gradient(#3C0C6A 0%,#A462E3 100%);
-   border-radius: 16px;
-   width: 90%;
-   font-family: myfont;
-   box-shadow: 0px 0px 9px 0px #7b40b2;
+    background-image: linear-gradient(#3C0C6A 0%,#A462E3 100%);
+    border-radius: 16px;
+    width: 90%;
+    font-family: myfont;
+    box-shadow: 0px 0px 9px 0px #7b40b2;
+    z-index: -4;
+    height: 202px !IMPORTANT;
 }
 
 .gra-box-2{
@@ -264,7 +271,10 @@ margin: 28px 0px;
    width: 90%;
    font-family: myfont;
    box-shadow: 0px 0px 9px 0px #8c0e0f;
+   z-index: -4;
+   height: 202px !IMPORTANT;
 }
+
 
 .gra-box-4{
     bottom: 0;
@@ -273,6 +283,8 @@ margin: 28px 0px;
    width: 90%;
    font-family: myfont;
    box-shadow: 0px 0px 9px 0px #c47806;
+   z-index: -4;
+   height: 202px !IMPORTANT;
 }
 
 .gra-box-8{
@@ -282,6 +294,8 @@ margin: 28px 0px;
    width: 90%;
    font-family: myfont;
    box-shadow: 0px 0px 9px 0px #e0c272;
+   z-index: -4;
+   height: 202px !IMPORTANT;
 }
 
 
@@ -292,6 +306,8 @@ margin: 28px 0px;
    width: 90%;
    font-family: myfont;
    box-shadow: 0px 0px 9px 0px #d3cc04;
+   z-index: -4;
+   height: 202px !IMPORTANT;
 }
 
 .experience-heading{

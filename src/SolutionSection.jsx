@@ -10,8 +10,8 @@ function SolutionSection() {
         </div>
         <div className="basis-1/12"></div>
 
-        <div className="basis-4/12 self-center pr-5	">
-          <h1 class="bussiness-head my-3">
+        <div className="basis-4/12 self-center spices-pad">
+          <h1 class="bussiness-head-mobile my-3">
             Get the Desired Flavour and Aroma with PlanetsEra Spices
           </h1>
 
