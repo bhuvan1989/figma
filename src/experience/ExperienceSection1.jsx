@@ -10,7 +10,7 @@ const ExperienceSection1 = () => {
     <div className="basis-6/12 pl-14">
       <div className="flex flex-wrap m-1 md:-m-2">
         <div className="flex flex-wrap">
-          <div className="w-1/2">
+          <div className="w-1/2 hover06 column">
             <img src={experience1} className="mb-2" />
           </div>
           <div className="w-1/2 self-end">

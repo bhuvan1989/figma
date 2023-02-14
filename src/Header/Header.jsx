@@ -82,16 +82,45 @@ function Header() {
                 </div>
               </div>
             </div>
-          </div>
-          <div
-            className="basis-12/12 flex absolute image-top"
-            style={{ right: "3%" }}
-          >
-            <div className="basis-6/12 flex"></div>
-            <div className="basis-6/12 flex justify-end">
-              <img src={redPowder} width={"120px"} className="pr-3" />
-              <img src={tumericPowder} width={"120px"} className="pr-3" />
-              <img src={corienderPowder} width={"120px"} className="pr-3" />
+
+            <div
+              id="mobile-pouch"
+              className="basis-12/12 flex absolute image-top"
+              style={{ right: "3%", top: "48%" }}
+            >
+              <div className="basis-6/12 flex"></div>
+              <div className="basis-6/12 flex justify-end">
+                <img
+                  src={redPowder}
+                  width={"80px"}
+                  height={"80px"}
+                  className="pr-3"
+                />
+                <img
+                  src={tumericPowder}
+                  width={"80px"}
+                  height={"80px"}
+                  className="pr-3"
+                />
+                <img
+                  src={corienderPowder}
+                  width={"80px"}
+                  height={"80px"}
+                  className="pr-3"
+                />
+              </div>
+            </div>
+            <div
+              id="desktop-pouch"
+              className="basis-12/12 flex absolute image-top"
+              style={{ right: "3%", top: "100%" }}
+            >
+              <div className="basis-6/12 flex"></div>
+              <div className="basis-6/12 flex justify-end">
+                <img src={redPowder} width={"120px"} className="pr-3" />
+                <img src={tumericPowder} width={"120px"} className="pr-3" />
+                <img src={corienderPowder} width={"120px"} className="pr-3" />
+              </div>
             </div>
           </div>
         </nav>

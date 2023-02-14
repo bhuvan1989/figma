@@ -3,7 +3,7 @@ import "../Header/Header.css";
 import logoImage from "../assets/images/logo.png";
 const LogoSection = () => {
   return (
-    <div className="basis-4/12 pl-5">
+    <div className="basis-4/12 pl-5 myPos">
       <img
         id="desktopNav"
         src={logoImage}
